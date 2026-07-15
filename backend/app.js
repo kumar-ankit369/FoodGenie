@@ -13,14 +13,7 @@ const errorMiddleware = require("./middlewares/errors");
 
 app.use(
   cors({
-    origin: [
-<<<<<<< HEAD
-      "http://localhost:5173",
-      "https://foodgenieproject.netlify.app",
-=======
-      "https://foodgenieproject.netlify.app"
->>>>>>> daf8b065b9d73f5edcb71d2d4752dc2c39be5487
-    ],
+    origin: "https://foodgenieproject.netlify.app",
     credentials: true,
   }),
 );
