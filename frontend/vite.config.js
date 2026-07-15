@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "hhttps://foodgenie-j4zg.onrender.com",
         changeOrigin: true,
         secure: false,
       },
