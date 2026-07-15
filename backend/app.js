@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://genie-food-app.netlify.app",
+      "https://foodgenieproject.netlify.app",
     ],
     credentials: true,
   }),
