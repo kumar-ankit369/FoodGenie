@@ -14,7 +14,7 @@ const errorMiddleware = require("./middlewares/errors");
 app.use(
   cors({
     origin: [
-      "https://lively-duckanoo-0ac28a.netlify.app/"
+      "https://lively-duckanoo-0ac28a.netlify.app"
     ],
     credentials: true,
   }),
