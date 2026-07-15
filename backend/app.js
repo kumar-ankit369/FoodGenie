@@ -14,8 +14,7 @@ const errorMiddleware = require("./middlewares/errors");
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
-      "https://genie-food-app.netlify.app",
+      "https://lively-duckanoo-0ac28a.netlify.app/"
     ],
     credentials: true,
   }),
